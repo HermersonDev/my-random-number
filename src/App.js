@@ -7,8 +7,8 @@ import Load from './pages/Load';
 function App() {
   return (
     <div className="App">
-		{/*<Home />*/}  
-		<Load /> 
+		<Home />  
+		{/*<Load />*/} 
     </div>
   );
 }

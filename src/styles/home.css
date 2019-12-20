@@ -4,8 +4,7 @@ div#page-home {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	height: 100%;
-	max-width: 600px;
-	width: 100%;
+	width: 100%; 
 	border: 1px solid var(--blue-1);
 	border-radius: 5px;
 }
@@ -82,7 +81,7 @@ p#number-2 {
 
 p#number-3 {
 	animation: numbers 1s infinite;
-	bottom: 25%;
+	bottom: 20%;
 	color: var(--blue-2);
 	font-size: 12px;
 	left: 50%;
@@ -98,7 +97,7 @@ p#number-4 {
 
 p#number-5 {
 	animation: numbers 1.4s infinite;
-	bottom: 25%;
+	bottom: 20%;
 	color: var(--blue-3);
 	font-size: 16px;
 	left: 18%;
@@ -137,7 +136,18 @@ p#number-9 {
 }
 
 @keyframes numbers {
-	0% { transform: translateY(-200%); }
-	50% { transform: translateY(50%); }
-	100% { transform: translateY(-200%); }
+	0% { 
+		color: var(--blue-5);
+		transform: translateY(-200%); 
+	}
+	25% { color: var(--blue-3); }
+	50% {
+		color: var(--blue-1); 
+		transform: translateY(50%); 
+	}
+	75% { color: var(--blue-3); }
+	100% { 
+		color: var(--blue-5);
+		transform: translateY(-200%); 
+	}
 }
