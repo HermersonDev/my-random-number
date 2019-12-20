@@ -1,13 +1,28 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+:root {
+	--blue-1: #00dfff;
+	--blue-2: #00cbe8;
+	--blue-3: #00a3ba;
+	--blue-4: #008ea3;
+	--blue-5: #003d46;
+	--bg-1: #00101a;
+	--bg-2: #000000;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	max-width: 600px;
+	background-image: radial-gradient(var(--bg-1), var(--bg-2));
+	background-repeat: no-repeat;
+	font-family: 'Press Start 2P', cursive;
+	color: var(--blue-1);
+
 }

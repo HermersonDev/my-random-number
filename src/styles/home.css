@@ -1,0 +1,143 @@
+div#page-home {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 100%;
+	max-width: 600px;
+	width: 100%;
+	border: 1px solid var(--blue-1);
+	border-radius: 5px;
+}
+
+div#page-home .link {
+	text-decoration: none;
+	color: var(--blue-1);
+}
+
+div#page-home .link:hover {
+	color: var(--blue-2);
+}
+
+p#header {
+	color: var(--blue-4);
+	font-size: 10px;
+	padding: 20px;
+	text-align: center;
+}
+
+div#main {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 50vh;
+	justify-content: center;
+	margin-top: 100px;
+}
+
+div#main h1 {
+	letter-spacing: 3px;
+	line-height: 45px;
+	text-align: center;
+}
+
+div#page-home #link-footer {
+	bottom: 10px;
+	display: flex;
+	font-size: 16px;
+	justify-content: center;
+	left: 1px;
+	padding: 20px;
+	position: absolute;
+	width: 99%;
+}	
+
+@keyframes numbers {
+	0% { transform: translateY(-200%); }
+	50% { transform: translateY(50%); }
+	100% { transform: translateY(-200%); }
+}
+
+p[id^="number-"] {
+	position: absolute;
+	z-index: -1;
+}
+
+p#number-0 {
+	top: 5em;
+	left: 3em;
+	color: var(--blue-2);
+	animation: numbers 1.2s infinite;
+}
+
+p#number-1 {
+	bottom: 50%;
+	left: 10%;
+	color: var(--blue-1);
+	font-size: 10px;
+	animation: numbers .8s infinite;
+}
+
+p#number-2 {
+	top: 30%;
+	right: 35%;
+	color: var(--blue-2);
+	font-size: 14px;
+	animation: numbers 1s infinite;
+}
+
+p#number-3 {
+	bottom: 25%;
+	left: 50%;
+	color: var(--blue-2);
+	font-size: 12px;
+	animation: numbers 1s infinite;
+}
+
+p#number-4 {
+	top: 18%;
+	right: 15%;
+	color: var(--blue-3);
+	font-size: 20px;
+	animation: numbers 1.4s infinite;
+}
+
+p#number-5 {
+	bottom: 25%;
+	left: 18%;
+	color: var(--blue-3);
+	font-size: 16px;
+	animation: numbers 1.4s infinite;
+}
+
+p#number-6 {
+	bottom: 50%;
+	right: 7%;
+	color: var(--blue-3);
+	font-size: 18px;
+	animation: numbers 1.6s infinite;
+}
+
+p#number-7 {
+	top: 25%;
+	left: 30%;
+	color: var(--blue-4);
+	font-size: 22px;
+	animation: numbers 1.8s infinite;
+}
+
+p#number-8 {
+	top: 10%;
+	left: 60%;
+	color: var(--blue-1);
+	font-size: 10px;
+	animation: numbers .8s infinite;
+}
+
+p#number-9 {
+	bottom: 15%;
+	right: 10%;
+	color: var(--blue-1);
+	font-size: 22px;
+	animation: numbers 1.8s infinite;
+}
