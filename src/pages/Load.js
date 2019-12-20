@@ -5,7 +5,7 @@ import '../styles/load.css';
 const Load = () => (
 	<div id="load-page">
 		<h1 id="number-count">10</h1>
-		<p>Think a number?</p>
+		<p>Think a number !</p>
 	</div>
 );
 

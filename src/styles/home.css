@@ -52,92 +52,92 @@ div#page-home #link-footer {
 	width: 99%;
 }	
 
-@keyframes numbers {
-	0% { transform: translateY(-200%); }
-	50% { transform: translateY(50%); }
-	100% { transform: translateY(-200%); }
-}
-
 p[id^="number-"] {
 	position: absolute;
 	z-index: -1;
 }
 
 p#number-0 {
-	top: 5em;
-	left: 3em;
-	color: var(--blue-2);
 	animation: numbers 1.2s infinite;
+	color: var(--blue-2);
+	left: 3em;
+	top: 5em;
 }
 
 p#number-1 {
+	animation: numbers .8s infinite;
 	bottom: 50%;
-	left: 10%;
 	color: var(--blue-1);
 	font-size: 10px;
-	animation: numbers .8s infinite;
+	left: 10%;
 }
 
 p#number-2 {
-	top: 30%;
-	right: 35%;
+	animation: numbers 1s infinite;
 	color: var(--blue-2);
 	font-size: 14px;
-	animation: numbers 1s infinite;
+	right: 35%;
+	top: 30%;
 }
 
 p#number-3 {
+	animation: numbers 1s infinite;
 	bottom: 25%;
-	left: 50%;
 	color: var(--blue-2);
 	font-size: 12px;
-	animation: numbers 1s infinite;
+	left: 50%;
 }
 
 p#number-4 {
-	top: 18%;
-	right: 15%;
+	animation: numbers 1.4s infinite;
 	color: var(--blue-3);
 	font-size: 20px;
-	animation: numbers 1.4s infinite;
+	right: 15%;
+	top: 18%;
 }
 
 p#number-5 {
+	animation: numbers 1.4s infinite;
 	bottom: 25%;
-	left: 18%;
 	color: var(--blue-3);
 	font-size: 16px;
-	animation: numbers 1.4s infinite;
+	left: 18%;
 }
 
 p#number-6 {
+	animation: numbers 1.6s infinite;
 	bottom: 50%;
-	right: 7%;
 	color: var(--blue-3);
 	font-size: 18px;
-	animation: numbers 1.6s infinite;
+	right: 7%;
 }
 
 p#number-7 {
-	top: 25%;
-	left: 30%;
+	animation: numbers 1.8s infinite;
 	color: var(--blue-4);
 	font-size: 22px;
-	animation: numbers 1.8s infinite;
+	left: 30%;
+	top: 25%;
 }
 
 p#number-8 {
-	top: 10%;
-	left: 60%;
+	animation: numbers .8s infinite;
 	color: var(--blue-1);
 	font-size: 10px;
-	animation: numbers .8s infinite;
+	left: 60%;
+	top: 10%;
 }
 
 p#number-9 {
+	animation: numbers 1.8s infinite;
 	bottom: 15%;
-	right: 10%;
 	color: var(--blue-1);
 	font-size: 22px;
-	animation: numbers 1.8s infinite;
+	right: 10%;
+}
+
+@keyframes numbers {
+	0% { transform: translateY(-200%); }
+	50% { transform: translateY(50%); }
+	100% { transform: translateY(-200%); }
 }

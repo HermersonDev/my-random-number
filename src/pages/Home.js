@@ -26,6 +26,7 @@ const Home = () => (
 		<p id="number-7">7</p>
 		<p id="number-8">8</p>
 		<p id="number-9">9</p>
+		
 	</div>
 );
 
