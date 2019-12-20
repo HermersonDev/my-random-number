@@ -7,7 +7,7 @@ import Button from '../components/Button';
 
 const Home = () => (
 	<div id="page-home">
-		<p id="header">Created by <a class="link" href="https://github.com/HermersonDev/profile">@hdev_</a></p>
+		<p id="header">Created by <a class="link" href="https://github.com/HermersonDev">@hdev_</a></p>
 		
 		<div id="main">
 			<h1>MyRandom<br/>Number</h1>
