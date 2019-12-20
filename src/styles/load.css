@@ -1,0 +1,27 @@
+div#load-page {
+	border: 1px solid white;
+	height: 100vh;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	text-align: center;
+}
+
+div#load-page h1 {
+	border: 1px solid white;
+	margin: 50% 0;
+}
+
+@keyframes resize {
+	0% { transform: translate(5%); }
+	50% { transform: translate(0%); }
+	100% { transform: translate(5%); }
+}
+
+div#load-page p {
+	border: 1px solid white;
+	padding: 50px;
+	font-size: 24px;
+	animation: resize .5s infinity;
+}
+
