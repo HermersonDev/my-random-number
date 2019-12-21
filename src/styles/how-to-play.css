@@ -1,0 +1,28 @@
+div#how-to-play-page {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	text-align: center;
+	align-items: center;
+}
+
+div#how-to-play-page p {
+	font-size: .8em;
+	line-height: 16px;
+}
+
+div#how-to-play-page #en,
+div#how-to-play-page #pt { margin: 0 20px; }
+
+div#how-to-play-page #en p:first-child,
+div#how-to-play-page #pt p:first-child {
+	margin: 10px auto;
+	font-size: 16px;
+}
+
+div#how-to-play-page .btn {
+	width: 200px;
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+

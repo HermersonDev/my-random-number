@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Load from './pages/Load';
 import RandomNumber from './pages/RandomNumber';
 import GameOver from './pages/GameOver';
+import HowToPlay from './pages/HowToPlay';
 
 function App() {
   return (
@@ -13,8 +14,9 @@ function App() {
 			<Load /> 
 			<RandomNumber />
 			<Home /> 
-		*/} 
-		<GameOver />
+			<GameOver />
+		*/}
+		<HowToPlay /> 
     </div>
   );
 }
