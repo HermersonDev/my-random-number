@@ -1,4 +1,4 @@
-button {
+button.btn-action {
 	background: transparent;
 	border-radius: 5px;
 	border: 1px solid var(--blue-1);
@@ -12,17 +12,17 @@ button {
 	transition: all .5s;
 }
 
-button:not(.btn-primary):hover {
+button.btn-action:not(.btn-primary):hover {
 	background: var(--blue-1);
 	color: var(--bg-2);
 }
 
-button.btn-primary {
+button.btn-action.btn-action-primary {
 	background: var(--blue-2);
 	color: #fff;
 }
 
-button.btn-primary:hover {
+button.btn-action.btn-action-primary:hover {
 	background: var(--blue-5);
 	color: var(--blue-1);
 }
