@@ -1,0 +1,22 @@
+div#random-number-page {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+div#random-number-page p {
+	font-size: 1.5em;
+}
+
+div#random-number-page p#number {
+	font-size: 3em;
+}
+
+div#actions {
+	display: flex;
+	justify-content: center;
+}
+
+
+

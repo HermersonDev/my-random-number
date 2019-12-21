@@ -1,0 +1,29 @@
+button {
+	background: transparent;
+	border-radius: 5px;
+	border: 1px solid var(--blue-1);
+	color: var(--blue-1);
+	font-family: 'Press Start 2P', cursive;
+	font-size: 10px;
+	height: 90px;
+	line-height: 18px;
+	margin: 0 5px;
+	width: 90px;
+	transition: all .5s;
+}
+
+button:not(.btn-primary):hover {
+	background: var(--blue-1);
+	color: var(--bg-2);
+}
+
+button.btn-primary {
+	background: var(--blue-1);
+	border: none;
+	color: #fff;
+}
+
+button.btn-primary:hover {
+	background: var(--blue-3);
+}
+

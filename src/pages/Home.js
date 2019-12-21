@@ -6,15 +6,15 @@ import "../styles/home.css";
 import Button from '../components/Button';
 
 const Home = () => (
-	<div id="page-home">
-		<p id="header">Created by <a class="link" href="https://github.com/HermersonDev">@hdev_</a></p>
+ 	<div id="page-home" classMame="screen">
+		<p id="header">Created by <a className="link" href="https://github.com/HermersonDev">@hdev_</a></p>
 		
 		<div id="main">
 			<h1>MyRandom<br/>Number</h1>
 			<Button textValue="PLAY!"/>
 		</div>
 
-		<a id="link-footer" class="link" href="#">How to play?</a>
+		<a id="link-footer" className="link" href="#">How to play?</a>
 
 		<p id="number-0">0</p>
 		<p id="number-1">1</p>

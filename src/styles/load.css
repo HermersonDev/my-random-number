@@ -1,14 +1,13 @@
 div#load-page {
 	display: flex;
 	flex-direction: column;
-	height: 100%;
-	justify-content: space-between;
 	text-align: center;
+	justify-content: space-between;
 }
 
 div#load-page h1#number-count {
 	font-size: 4em;
-	margin: 60% 0;
+	margin: 30vh 0;
 }
 
 div#load-page p {
