@@ -4,15 +4,17 @@ import React from 'react';
 import Home from './pages/Home';
 import Load from './pages/Load';
 import RandomNumber from './pages/RandomNumber';
+import GameOver from './pages/GameOver';
 
 function App() {
   return (
     <div className="App">
 		{/*
 			<Load /> 
+			<RandomNumber />
 			<Home /> 
 		*/} 
-		<RandomNumber />
+		<GameOver />
     </div>
   );
 }

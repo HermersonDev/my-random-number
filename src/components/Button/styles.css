@@ -1,4 +1,4 @@
-#default-btn {
+.btn {
 	background: transparent;
 	border-radius: 5px;
 	border: 1px solid var(--blue-1);
@@ -10,7 +10,17 @@
 	transition: all .5s;
 }
 
-#default-btn:hover {
+.btn:hover {
 	background: var(--blue-1);
 	color: var(--bg-1);
+}
+
+.btn.btn-primary {
+	background: var(--blue-1);
+	color: #fff;
+}
+
+.btn.btn-primary:hover {
+	background: var(--blue-5);
+	color: var(--blue-1);
 }

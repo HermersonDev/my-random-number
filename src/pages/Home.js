@@ -6,12 +6,12 @@ import "../styles/home.css";
 import Button from '../components/Button';
 
 const Home = () => (
- 	<div id="page-home" classMame="screen">
+ 	<div id="page-home" className="screen">
 		<p id="header">Created by <a className="link" href="https://github.com/HermersonDev">@hdev_</a></p>
 		
 		<div id="main">
 			<h1>MyRandom<br/>Number</h1>
-			<Button textValue="PLAY!"/>
+			<Button btnClass="btn" textValue="PLAY!"/>
 		</div>
 
 		<a id="link-footer" className="link" href="#">How to play?</a>

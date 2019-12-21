@@ -1,0 +1,21 @@
+div#game-over-page {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	text-align: center;
+}
+
+div#game-over-page #play-again { margin-top: 100px; }
+
+div#game-over-page #play-again p {
+	font-size: 50px;
+}
+
+div#game-over-page #play-again .btn {
+	font-size: 18px;
+	padding-left: 0;
+	padding-right: 0;
+	width: 250px;
+}
+
+div#game-over-page #attempts { color: var(--blue-3); }
