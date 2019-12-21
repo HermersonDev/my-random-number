@@ -10,9 +10,9 @@ const RandomNumber = () => (
 		<p>Is this your number?</p>
 		<p id="number">10</p>
 		<div id="actions">
-			<ActionButton btnClass="btn-action"  textValue="It's smaller" />
-			<ActionButton btnClass="btn-action btn-action-primary" textValue="Yes!" />
-			<ActionButton btnClass="btn-action"  textValue="It's bigger" />
+			<ActionButton to="/" replace={false} btnClass="btn-action"  textValue="It's smaller" />
+			<ActionButton to="/game-over" replace={false} btnClass="btn-action btn-action-primary" textValue="Yes!" />
+			<ActionButton to="/random-number" replace={true} btnClass="btn-action"  textValue="It's bigger" />
 		</div>		
 	</div>
 );

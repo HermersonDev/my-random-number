@@ -1,12 +1,31 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { Redirect } from 'react-router-dom';
 
 import '../styles/load.css';
 
-const Load = () => (
-	<div id="load-page" className="screen">
-		<h1 id="number-count">10</h1>
-		<p>Think a number !</p>
-	</div>
-);
+const Load = () => {
+	const [loadTime, setLoadTime] = useState(10);
+
+	useEffect(() => {
+
+		if (loadTime > 0)
+			setTimeout(timer, 1000);
+
+	}, [loadTime]);
+
+	function timer() {
+		setLoadTime(loadTime - 1);
+	}
+
+	if (loadTime === 0)
+		return <Redirect to="/random-number" />
+
+	return (
+		<div id="load-page" className="screen">
+			<h1 id="number-count">{loadTime}</h1>
+			<p>Think a number !</p>
+		</div>
+	);
+};
 
 export default Load;

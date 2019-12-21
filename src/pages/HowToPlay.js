@@ -15,7 +15,7 @@ const HowToPlay = () => (
 			<p>PT</p>
 			<p>Mussum Ipsum, cacilds vidis litro abertis. Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. </p>
 		</div>
-		<Button btnClass="btn" textValue="BACK" />
+		<Button to="/" btnClass="btn" textValue="BACK" />
 	</div>
 );
 

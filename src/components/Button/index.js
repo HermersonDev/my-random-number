@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './styles.css';
 
-const Button = ({ btnClass, textValue }) => {
-	return <button className={btnClass}>{textValue}</button>;
+const Button = ({ to, btnClass, textValue }) => {
+	return <Link to={to} className={btnClass}>{textValue}</Link>;
 }
 
 export default Button;

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import "../styles/home.css";
 
@@ -11,10 +12,10 @@ const Home = () => (
 		
 		<div id="main">
 			<h1>MyRandom<br/>Number</h1>
-			<Button btnClass="btn" textValue="PLAY!"/>
+			<Button to="/load" btnClass="btn" textValue="PLAY!"/>
 		</div>
 
-		<a id="link-footer" className="link" href="#">How to play?</a>
+		<Link id="link-footer" className="link" to="/how-to-play">How to play?</Link>
 
 		<p id="number-0">0</p>
 		<p id="number-1">1</p>
