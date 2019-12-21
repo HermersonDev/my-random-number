@@ -18,12 +18,12 @@ button:not(.btn-primary):hover {
 }
 
 button.btn-primary {
-	background: var(--blue-1);
-	border: none;
+	background: var(--blue-2);
 	color: #fff;
 }
 
 button.btn-primary:hover {
-	background: var(--blue-3);
+	background: var(--blue-5);
+	color: var(--blue-1);
 }
 

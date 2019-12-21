@@ -6,10 +6,12 @@ div#random-number-page {
 }
 
 div#random-number-page p {
+	margin-top: 50px;
 	font-size: 1.5em;
 }
 
 div#random-number-page p#number {
+	margin-top: 0px;
 	font-size: 3em;
 }
 
