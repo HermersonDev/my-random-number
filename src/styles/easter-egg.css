@@ -1,0 +1,19 @@
+div#easter-egg-page.screen {
+	color: #49C583;
+	border: 2px solid #3B9E69;
+	background: url('./img/joker.png'), radial-gradient(#9C60BB, #640695);
+	background-repeat: no-repeat;
+	background-size: 300px auto, 100% 100%;
+	background-position: 50% 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	padding: 50px 0;
+	font-size: 1.2em
+}
+
+div#easter-egg-page p#easter-egg {
+	font-size: .8em;
+}
+

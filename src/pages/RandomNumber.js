@@ -39,7 +39,7 @@ const RandomNumber = () => {
 	};
 
 	 if (limit.min === limit.aux && limit.max === limit.aux)
-	 	return <Redirect to="/" />
+	 	return <Redirect to="/u-is-a-joker" />
 
 	return (
 		<div id="random-number-page" className="screen">

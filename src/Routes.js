@@ -7,6 +7,7 @@ import Load from './pages/Load';
 import RandomNumber from './pages/RandomNumber';
 import GameOver from './pages/GameOver';
 import HowToPlay from './pages/HowToPlay';
+import EasterEgg from './pages/EasterEgg';
 
 const Routes = () => (
 	<Router>
@@ -16,6 +17,7 @@ const Routes = () => (
 			<Route path="/random-number" component={RandomNumber} />
 			<Route path="/game-over/:att" component={GameOver} />
 			<Route path="/how-to-play" component={HowToPlay} />
+			<Route path="/u-is-a-joker" component={EasterEgg} />
 		</Switch>
 	</Router>
 );
