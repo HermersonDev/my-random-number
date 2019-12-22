@@ -23,7 +23,7 @@ const Load = () => {
 	return (
 		<div id="load-page" className="screen">
 			<h1 id="number-count">{loadTime}</h1>
-			<p>Think of a number from 0 to 100!</p>
+			<p>Think of a number <br/> from 0 to 100!</p>
 		</div>
 	);
 };
