@@ -11,6 +11,7 @@ div#load-page h1#number-count {
 }
 
 div#load-page p {
+	line-height: 24px;
 	animation: resize 1s ease-out infinite;
 	padding: 50px 0;
 }
