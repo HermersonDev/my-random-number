@@ -9,11 +9,11 @@ const HowToPlay = () => (
 	<div id="how-to-play-page" className="screen">
 		<div id="en">
 			<p>EN</p>
-			<p>Mussum Ipsum, cacilds vidis litro abertis. Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. </p>
+			<p>This game is quite simple, just think of a number from 0 to 100. Then the algorithm will try to guess. :)</p>
 		</div>
 		<div id="pt">
 			<p>PT</p>
-			<p>Mussum Ipsum, cacilds vidis litro abertis. Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. </p>
+			<p>Este jogo é bastante simples, basta pensar em um número de 0 a 100. Então o algoritmo tentará adivinhar. :)</p>
 		</div>
 		<Button to="/" btnClass="btn" textValue="BACK" />
 	</div>

@@ -6,7 +6,7 @@ import '../styles/random-number.css';
 const RandomNumber = () => {
 	const [number, setNumber] = useState();
 	const [limit, setLimit] = useState({ min: 0, max: 100, aux: 100 });
-	const [attempt, setAttempt] = useState(0);
+	const [attempt, setAttempt] = useState(1);
 
 	useEffect(() => {
 		getRandomNumber();
