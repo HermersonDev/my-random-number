@@ -17,7 +17,7 @@ const Routes = () => (
 			<Route path="/random-number" component={RandomNumber} />
 			<Route path="/game-over/:att" component={GameOver} />
 			<Route path="/how-to-play" component={HowToPlay} />
-			<Route path="/u-is-a-joker" component={EasterEgg} />
+			<Route path="/u-are-a-joker" component={EasterEgg} />
 		</Switch>
 	</Router>
 );
