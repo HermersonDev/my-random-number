@@ -2,7 +2,7 @@
   "name": "my-random-number",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://HermersonDev.github.io/my-random-number",
+  "homepage": "https://HermersonDev.github.io/my-random-number",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
