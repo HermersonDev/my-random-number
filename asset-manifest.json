@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/my-random-number/static/css/main.62394e8f.chunk.css",
+    "main.js": "/my-random-number/static/js/main.539f7b05.chunk.js",
+    "main.js.map": "/my-random-number/static/js/main.539f7b05.chunk.js.map",
+    "runtime-main.js": "/my-random-number/static/js/runtime-main.a6b29556.js",
+    "runtime-main.js.map": "/my-random-number/static/js/runtime-main.a6b29556.js.map",
+    "static/js/2.056caeb7.chunk.js": "/my-random-number/static/js/2.056caeb7.chunk.js",
+    "static/js/2.056caeb7.chunk.js.map": "/my-random-number/static/js/2.056caeb7.chunk.js.map",
+    "index.html": "/my-random-number/index.html",
+    "precache-manifest.77822216aee2a4c337ffa1bbcd11b20e.js": "/my-random-number/precache-manifest.77822216aee2a4c337ffa1bbcd11b20e.js",
+    "service-worker.js": "/my-random-number/service-worker.js",
+    "static/css/main.62394e8f.chunk.css.map": "/my-random-number/static/css/main.62394e8f.chunk.css.map",
+    "static/js/2.056caeb7.chunk.js.LICENSE": "/my-random-number/static/js/2.056caeb7.chunk.js.LICENSE",
+    "static/media/easter-egg.css": "/my-random-number/static/media/joker.51f98f05.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a6b29556.js",
+    "static/js/2.056caeb7.chunk.js",
+    "static/css/main.62394e8f.chunk.css",
+    "static/js/main.539f7b05.chunk.js"
+  ]
+}
